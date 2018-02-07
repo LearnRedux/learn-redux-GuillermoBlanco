@@ -1,6 +1,6 @@
 describe("State", () => {
 
-  fit('states are any serializable objects', () => {
+  it('states are any serializable objects', () => {
     const state = { 
       visibilityFilter: 'SHOW_ALL',
       todos: [

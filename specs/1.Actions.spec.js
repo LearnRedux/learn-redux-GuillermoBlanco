@@ -1,4 +1,4 @@
-fdescribe("Actions", () => {
+describe("Actions", () => {
 
   it('we define action types as a string', () => {
     const ADD_TODO = 'ADD_TODO';
